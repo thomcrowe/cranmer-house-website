@@ -1,0 +1,37 @@
+# Cranmer House
+
+> An Episcopal campus ministry serving students at Oral Roberts University and the University of Tulsa in Tulsa, Oklahoma.
+
+Cranmer House is named after Thomas Cranmer, the 16th-century Archbishop of Canterbury who compiled the Book of Common Prayer. The ministry gathers students for theological reading, worship, and Christian fellowship. It is affiliated with St. John's Episcopal Church, Tulsa, and led by Fr. Thom Crowe.
+
+## About
+
+Cranmer House forms students in the Anglican/Episcopal tradition through:
+- The Dead Theologians Society (DTS) — weekly reading of Church Fathers and classic Christian texts
+- The Daily Office (Morning and Evening Prayer from the Book of Common Prayer)
+- Holy Eucharist
+- Spiritual direction with Fr. Thom Crowe
+- Christian fellowship and community
+
+Every regular participant receives a copy of the Book of Common Prayer.
+
+## Key Pages
+
+- [Home](https://cranmerhouse.org/) — Overview of the ministry, upcoming events, and how to get involved
+- [Dead Theologians Society](https://cranmerhouse.org/dts) — About DTS, current reading, past readings, and FAQ
+- [Calendar](https://cranmerhouse.org/calendar) — Full interactive event calendar with campus filter (ORU / TU)
+- [FAQ](https://cranmerhouse.org/faq) — Common questions about Cranmer House, the Episcopal tradition, DTS, and worship
+- [Give](https://cranmerhouse.org/give) — How to support the ministry financially
+- [Resources](https://cranmerhouse.org/resources) — Curated theological and devotional resources
+
+## Contact
+
+- Chaplain: Fr. Thom Crowe
+- Email: frthom@cranmerhouse.org
+- Location: Tulsa, Oklahoma (serving ORU and TU campuses)
+- Parish: St. John's Episcopal Church, 4200 S. Atlanta Pl., Tulsa, OK 74105
+
+## Do Not Index
+
+- /keystatic — CMS admin interface (not for public use)
+- /api/keystatic — CMS API routes (not for public use)

@@ -1,0 +1,113 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Cranmer House - Episcopal Palette */
+  --background: #faf9f7;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  --primary: #1C3D6E;           /* Episcopal navy */
+  --primary-foreground: #f8f6f0;
+  --secondary: #f5f4f1;
+  --secondary-foreground: #1a1a1a;
+  --muted: #e8e6e1;
+  --muted-foreground: #6b6b6b;
+  --accent: #B5902C;            /* Liturgical gold */
+  --accent-foreground: #ffffff;
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: #e5e3de;
+  --input: #e8e6e1;
+  --ring: #B5902C;
+  --radius: 0.25rem;
+
+  /* Custom colors */
+  --warm-black: #1a1a1a;
+  --warm-white: #faf9f7;
+  --stone: #B5902C;             /* Gold replaces warm brown */
+  --stone-light: #D4AF60;       /* Lighter gold */
+}
+
+.dark {
+  --background: #0f1a2e;
+  --foreground: #f8f6f0;
+  --card: #162340;
+  --card-foreground: #f8f6f0;
+  --popover: #162340;
+  --popover-foreground: #f8f6f0;
+  --primary: #f8f6f0;
+  --primary-foreground: #1C3D6E;
+  --secondary: #1e2f4a;
+  --secondary-foreground: #f8f6f0;
+  --muted: #1e2f4a;
+  --muted-foreground: #a1a1a1;
+  --accent: #D4AF60;
+  --accent-foreground: #1C3D6E;
+  --border: #2a3d5c;
+  --input: #1e2f4a;
+  --ring: #D4AF60;
+}
+
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', 'Playfair Display Fallback', Georgia, serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  /* Custom theme colors */
+  --color-warm-black: var(--warm-black);
+  --color-warm-white: var(--warm-white);
+  --color-stone: var(--stone);
+  --color-stone-light: var(--stone-light);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom utilities */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Editorial image treatment */
+.editorial-image {
+  filter: grayscale(20%) contrast(1.05);
+}

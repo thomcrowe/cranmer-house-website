@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 32" fill="none">
+  <!-- Canterbury cross potent, 24x24, centered in 32px height (4px top offset) -->
+  <path
+    transform="translate(0,4)"
+    d="M8 2H16V5H14V10H19V8H22V16H19V14H14V19H16V22H8V19H10V14H5V16H2V8H5V10H10V5H8Z"
+    fill="#D4AF60"
+  />
+  <!-- Cranmer House wordmark -->
+  <text
+    x="32"
+    y="22"
+    font-family="Georgia, 'Playfair Display', 'Times New Roman', serif"
+    font-size="20"
+    font-weight="normal"
+    fill="#f8f6f0"
+    letter-spacing="-0.3"
+  >Cranmer House</text>
+</svg>
