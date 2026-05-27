@@ -27,10 +27,10 @@ export function SiteNav() {
               About
             </Link>
             <Link href="/dts" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors tracking-wide">
-              Dead Theologians
+              DTS
             </Link>
             <Link href="/calendar" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors tracking-wide">
-              Calendar
+              Events
             </Link>
             <Link href="/#contact" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors tracking-wide">
               Contact
@@ -70,16 +70,22 @@ export function SiteNav() {
               About
             </Link>
             <Link href="/dts" className="py-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={() => setIsOpen(false)}>
-              Dead Theologians
+              DTS
             </Link>
             <Link href="/calendar" className="py-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={() => setIsOpen(false)}>
-              Calendar
+              Events
             </Link>
-            <Link href="/#contact" className="py-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={() => setIsOpen(false)}>
-              Contact
+            <Link href="/resources" className="py-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={() => setIsOpen(false)}>
+              Resources
+            </Link>
+            <Link href="/faq" className="py-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={() => setIsOpen(false)}>
+              FAQ
             </Link>
             <Link href="/give" className="py-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={() => setIsOpen(false)}>
               Give
+            </Link>
+            <Link href="/#contact" className="py-3 text-primary-foreground/80 hover:text-primary-foreground transition-colors" onClick={() => setIsOpen(false)}>
+              Contact
             </Link>
             <Button
               asChild

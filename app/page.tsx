@@ -147,7 +147,7 @@ function HeroSection() {
               Ancient Faith for the Modern Campus
             </h1>
             <p className="text-primary-foreground/70 text-lg lg:text-xl leading-relaxed mb-10 max-w-xl">
-              Forming students in the way of Christ through the riches of the Episcopal tradition at Oral Roberts University and the University of Tulsa.
+              A campus ministry at Oral Roberts University and the University of Tulsa. We study the Church Fathers, pray the Office, and follow the way of Christ together.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
@@ -184,7 +184,7 @@ function AboutSection() {
           <div>
             <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">Who We Are</p>
             <h2 className="font-serif text-4xl lg:text-5xl text-foreground leading-tight mb-8">
-              A Community Rooted in Ancient Wisdom
+              Two Campuses. One Table.
             </h2>
             <div className="space-y-6 text-foreground/70 text-lg leading-relaxed">
               <p>
@@ -193,8 +193,9 @@ function AboutSection() {
                 of the liturgical year together.
               </p>
               <p>
-                Whether you&apos;re a lifelong Christian exploring liturgical tradition, someone wrestling 
-                with doubt, or simply hungry for something more than Sunday services—you&apos;re welcome here.
+                We serve students at Oral Roberts University and the University of Tulsa, two very different
+                campuses and one shared community. Whether you grew up in church and want to go deeper, or
+                you&apos;re asking questions you&apos;re not sure anyone wants to hear, there&apos;s a place for you here.
               </p>
             </div>
             <div className="flex items-center gap-8 mt-10 pt-10 border-t border-border">
@@ -240,7 +241,7 @@ function OurLifeSection() {
     {
       number: "02",
       title: "Eucharist",
-      description: "Gathering at the Lord&apos;s Table to receive the Body and Blood of Christ in the holy mysteries."
+      description: "Gathering at the Lord&apos;s Table to receive the Body and Blood of Christ. The Eucharist is the center of our common life, and everything else flows from it."
     },
     {
       number: "03",
@@ -250,7 +251,7 @@ function OurLifeSection() {
     {
       number: "04",
       title: "Spiritual Direction",
-      description: "One-on-one pastoral care, confession, and guidance for the journey of faith."
+      description: "One-on-one time with Fr. Thom, for confession, for questions, for the parts of your faith journey you haven&apos;t said out loud yet."
     },
     {
       number: "05",
@@ -290,6 +291,9 @@ function OurLifeSection() {
             <p className="font-serif text-lg text-primary-foreground/80 italic mt-8">
               &ldquo;Lex orandi, lex credendi&rdquo;
             </p>
+            <p className="text-primary-foreground/50 text-sm mt-1">
+              The law of prayer is the law of belief.
+            </p>
           </div>
         </div>
       </div>
@@ -309,16 +313,18 @@ function ChaplainSection() {
           </div>
 
           <div className="flex-1">
-            <p className="text-stone text-sm tracking-[0.2em] uppercase mb-2">Our Chaplain</p>
+            <p className="text-stone text-sm tracking-[0.2em] uppercase mb-2">Our Priest &amp; Campus Missioner</p>
             <h2 className="font-serif text-3xl lg:text-4xl text-foreground leading-tight mb-4">
               Fr. Thom Crowe
             </h2>
             <p className="text-foreground/70 text-base lg:text-lg leading-relaxed max-w-2xl">
-              Fr. Thom is an Episcopal priest and founder of Cranmer House. An ORU graduate, he
-              previously served as a deacon in the Eastern Orthodox Church before finding his home in
-              the Anglican tradition. He currently serves as Assisting Priest at Saint John&apos;s
-              Episcopal Church and is passionate about introducing students to the Church Fathers,
-              liturgical worship, and sacramental life.
+              Fr. Thom is an Episcopal priest, an ORU graduate, and the founder of Cranmer House. He
+              came to the Anglican tradition the long way, through years as an Orthodox deacon, and
+              he&apos;s still a little amazed that God put him back on the ORU campus as a priest. He
+              serves as Assisting Priest at St. John&apos;s Episcopal Church and spends a lot of time
+              thinking about the Church Fathers, the beauty of the liturgy, and whether coffee counts
+              as a spiritual discipline. He&apos;s always up for a conversation, about theology, doubt,
+              or anything else.
             </p>
             <a
               href="mailto:frthom@cranmerhouse.org"
@@ -542,8 +548,8 @@ function EmailCaptureSection() {
               Get the Weekly Email
             </h2>
             <p className="text-primary-foreground/65 mt-4 leading-relaxed">
-              DTS reading for the week, upcoming events, and occasional notes from Fr. Thom.
-              No spam. Unsubscribe anytime.
+              The DTS reading for the week, what&apos;s coming up, and the occasional note from Fr. Thom.
+              Short, useful, never annoying.
             </p>
           </div>
           <form

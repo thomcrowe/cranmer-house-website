@@ -16,7 +16,7 @@ export function SiteFooter() {
           <div className="flex flex-wrap items-center gap-6 text-sm text-primary-foreground/60">
             <Link href="/#about" className="hover:text-primary-foreground transition-colors">About</Link>
             <Link href="/dts" className="hover:text-primary-foreground transition-colors">DTS</Link>
-            <Link href="/calendar" className="hover:text-primary-foreground transition-colors">Calendar</Link>
+            <Link href="/calendar" className="hover:text-primary-foreground transition-colors">Events</Link>
             <Link href="/resources" className="hover:text-primary-foreground transition-colors">Resources</Link>
             <Link href="/faq" className="hover:text-primary-foreground transition-colors">FAQ</Link>
             <Link href="/give" className="hover:text-primary-foreground transition-colors">Give</Link>
