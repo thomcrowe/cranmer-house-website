@@ -17,28 +17,16 @@ const sections = [
     description: "The Daily Office, Morning Prayer, Evening Prayer, and Compline, is the heartbeat of Anglican spiritual life. These resources make it easy to pray wherever you are.",
     items: [
       {
-        title: "Mission St. Clare",
-        url: "https://www.missionstclare.com",
-        description: "The cleanest Daily Office website. Morning Prayer, Noonday, Evening Prayer, and Compline, all laid out and ready to pray.",
-        tag: "Free · Web"
-      },
-      {
-        title: "Daily Office (officedailyprayer.org)",
-        url: "https://www.dailyoffice2019.com",
-        description: "Daily Office from the 2019 Book of Common Prayer. Beautiful layout, easy to follow.",
-        tag: "Free · Web"
+        title: "Venite",
+        url: "https://venite.app",
+        description: "A beautiful app for praying the Daily Office. Morning Prayer, Evening Prayer, and Compline, all in one place. Free and worth downloading.",
+        tag: "Free · App"
       },
       {
         title: "Book of Common Prayer (1979)",
         url: "https://www.bcponline.org",
         description: "The full text of the 1979 BCP online. Liturgies, psalms, lectionary, collects, everything.",
         tag: "Free · Web"
-      },
-      {
-        title: "Forward Day by Day",
-        url: "https://www.forwardmovement.org/Pages/Category/forward-day-by-day",
-        description: "Daily devotional published by the Episcopal Church. Short, grounded, and excellent for beginning a habit of daily prayer.",
-        tag: "Free · Print & App"
       },
     ]
   },
@@ -101,34 +89,40 @@ const sections = [
         tag: "Essential"
       },
       {
-        title: "Confessions, St. Augustine",
-        url: "https://www.ccel.org/ccel/augustine/confess.html",
-        description: "The first autobiography in the Western tradition and one of the greatest spiritual memoirs ever written. Free at CCEL.",
-        tag: "DTS Classic · Free"
+        title: "The Anglican Spirit, Archbishop Michael Ramsey",
+        url: "https://www.amazon.com/Anglican-Spirit-Seabury-Classics/dp/1596280042",
+        description: "Originally delivered as lectures at Nashotah House, this is the most accessible introduction to what Anglicanism actually is and believes. Conversational, wise, and warm. Rowan Williams called it a treasure. Start here if you want to understand the tradition you're entering.",
+        tag: "Anglican Essential"
       },
       {
-        title: "Surprised by Hope, N.T. Wright",
-        url: "https://www.amazon.com/Surprised-Hope-Rethinking-Heaven-Resurrection/dp/0061551821",
-        description: "A fresh, exhilarating account of resurrection and Christian hope. Changes how you read the New Testament.",
-        tag: "Anglican · Highly Recommended"
+        title: "The Spiritual Life, Evelyn Underhill",
+        url: "https://www.amazon.com/Spiritual-Life-Evelyn-Underhill/dp/0819213501",
+        description: "Originally four BBC radio broadcasts, this is Underhill's most accessible work. Short, profound, and deeply Anglican. She wrote it for ordinary people, not academics. One of the best introductions to Christian prayer ever written.",
+        tag: "Anglican Classic"
       },
       {
-        title: "Simply Christian, N.T. Wright",
-        url: "https://www.amazon.com/Simply-Christian-Christianity-Makes-Sense/dp/0061920622",
-        description: "The best modern introduction to Christianity after Mere Christianity.",
-        tag: "Introductory"
-      },
-      {
-        title: "Life Together, Dietrich Bonhoeffer",
-        url: "https://www.amazon.com/Life-Together-Exploration-Christian-Community/dp/0060608528",
-        description: "A thin, profound book about what Christian community actually looks like. Perfect for DTS.",
+        title: "On the Holy Spirit, St. Basil the Great",
+        url: "https://www.amazon.com/Holy-Spirit-Basil-Popular-Patristics/dp/0881418765",
+        description: "Basil's fourth-century defense of the full divinity of the Holy Spirit. Precise, pastoral, and essential. If you want to understand what the Church has always believed about the Spirit, start here.",
         tag: "DTS Classic"
       },
       {
-        title: "The Book of Common Prayer (1979)",
-        url: "https://www.amazon.com/Book-Common-Prayer-Pew-Edition/dp/0195287215",
-        description: "Every Cranmer House regular gets one, but if you want your own copy before then, this is the pew edition.",
-        tag: "Anglican · Essential"
+        title: "Heavenly Participation, Hans Boersma",
+        url: "https://www.amazon.com/Heavenly-Participation-Weaving-Sacramental-Tapestry/dp/0802865429",
+        description: "A wake-up call for Western Christianity. Boersma argues that Catholics and evangelicals alike have lost a sacramental vision of reality that the Church Fathers took for granted. One of the most important books for understanding what Cranmer House is actually about.",
+        tag: "Highly Recommended"
+      },
+      {
+        title: "On the Apostolic Preaching, St. Irenaeus",
+        url: "https://www.amazon.com/Apostolic-Preaching-Popular-Patristics-Irenaeus/dp/0881412740",
+        description: "A short, direct statement of the faith from the second century. Irenaeus lays out the whole story of Scripture as a single unified narrative. Indispensable for understanding how the early Church read the Bible.",
+        tag: "DTS Classic"
+      },
+      {
+        title: "Lectures on the Christian Sacraments, St. Cyril of Jerusalem",
+        url: "https://www.amazon.com/Lectures-Christian-Sacraments-Mystagogic-Catecheses/dp/0913836036",
+        description: "Fourth-century instructions for new Christians preparing for baptism. Cyril walks through the sacraments with pastoral clarity. Essential for anyone who wants to understand what the Church has always meant by baptism and Eucharist.",
+        tag: "DTS Classic"
       },
     ]
   },
@@ -139,9 +133,9 @@ const sections = [
     description: "New to the Episcopal Church? These resources explain where we came from and what we believe.",
     items: [
       {
-        title: "The Episcopal Church (Official Site)",
-        url: "https://www.episcopalchurch.org",
-        description: "The official home of the Episcopal Church. Good for understanding the broader denomination and its structure.",
+        title: "Anglican Compass",
+        url: "https://anglicancompass.com",
+        description: "The best online resource for Anglicans and those exploring the tradition. Serious theological content, accessible writing, and a genuine love for the Anglican inheritance. Worth bookmarking.",
         tag: "Web"
       },
       {
