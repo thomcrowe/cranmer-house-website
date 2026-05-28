@@ -10,7 +10,7 @@ import { generatedPastReadings } from "@/lib/past-readings-generated"
 export const metadata = {
   title: "Dead Theologians Society | Cranmer House",
   description:
-    "Weekly theological reading and discussion for students at ORU and TU. No expertise required, just curiosity, good conversation, and usually some food.",
+    "Weekly theological reading and discussion for people at ORU and TU. No expertise required, just curiosity, good conversation, and usually some food.",
 }
 
 const dtsReading = generatedDtsReading
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "I'm not Episcopal. Can I still come?",
-    a: "Absolutely. DTS draws students from all kinds of backgrounds: Baptist, Catholic, non-denominational, skeptic, and everything in between.",
+    a: "Absolutely. DTS draws people from all kinds of backgrounds: Baptist, Catholic, non-denominational, skeptic, and everything in between.",
   },
   {
     q: "What if I've never read theology before?",
@@ -96,8 +96,11 @@ export default function DTSPage() {
                 </div>
                 {/* Floating quote */}
                 <div className="absolute -bottom-6 -left-10 bg-stone/90 text-white p-6 max-w-[260px]">
-                  <p className="font-serif text-base italic leading-snug">
-                    &ldquo;The past is our teacher, not our master.&rdquo;
+                  <p className="font-serif text-sm italic leading-snug mb-3">
+                    &ldquo;It is a good rule, after reading a new book, never to allow yourself another new one till you have read an old one in between.&rdquo;
+                  </p>
+                  <p className="font-serif text-xs italic text-white/70">
+                    C.S. Lewis
                   </p>
                 </div>
               </div>
@@ -117,9 +120,10 @@ export default function DTSPage() {
               </h2>
               <div className="space-y-5 text-foreground/70 text-lg leading-relaxed">
                 <p>
-                  The Dead Theologians Society is a weekly gathering where students read and discuss
-                  the great works of Christian history. We believe the best way to understand our
-                  faith is to listen to those who have gone before us.
+                  At Dead Theologians Society, we come together to read and seriously engage with
+                  the great thinkers of the Christian tradition. We read slowly, we discuss,
+                  sometimes argue (respectfully), and we take seriously the idea that people who
+                  lived centuries ago still have something to say to us today.
                 </p>
                 <p>
                   Each semester we work through a classic text together, Augustine's
@@ -127,7 +131,7 @@ export default function DTSPage() {
                   Revelations, and more. We read a chapter each week, then gather to discuss.
                 </p>
                 <p>
-                  DTS is often the first place students encounter Cranmer House. It's low
+                  DTS is often the first place people encounter Cranmer House. It's low
                   commitment, intellectually stimulating, and deeply formative.
                 </p>
               </div>
@@ -152,9 +156,8 @@ export default function DTSPage() {
                   Who Can Come
                 </h3>
                 <p className="text-foreground/60 leading-relaxed">
-                  Anyone. You don't need to be Episcopal or even Christian. If you're
-                  curious about theology, history, or the big questions of life, you're
-                  welcome at our table.
+                  Join us. No theological prerequisites. Nobody will quiz you at the door.
+                  Just come and join the conversation.
                 </p>
               </div>
             </div>
@@ -225,18 +228,37 @@ export default function DTSPage() {
         </div>
       </section>
 
-      {/* Why Read the Fathers */}
+      {/* Where We Meet */}
       <section className="py-24 lg:py-32 bg-secondary">
+        <div className="max-w-4xl mx-auto px-6 lg:px-12">
+          <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">On Both Campuses</p>
+          <h2 className="font-serif text-4xl lg:text-5xl text-foreground leading-tight mb-10">
+            Where We Meet
+          </h2>
+          <p className="text-foreground/70 text-lg leading-relaxed">
+            DTS meets every other Thursday at ORU and every other Thursday at TU. Both campuses
+            are praying the same prayers, reading the same works, and deepening their faith
+            together. Some grew up in other Christian traditions. Some didn't grow up in church
+            at all. Turns out St. Athanasius doesn't care. What he said to his flock 1,500 years
+            ago still resonates.
+          </p>
+        </div>
+      </section>
+
+      {/* Why Read the Fathers */}
+      <section className="py-24 lg:py-32 bg-background">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">Our Conviction</p>
           <h2 className="font-serif text-4xl lg:text-5xl text-foreground leading-tight mb-10">
             Why Read the Church Fathers?
           </h2>
+          <p className="font-serif text-2xl lg:text-3xl text-foreground italic leading-tight mb-10">
+            We live in an age of spiritual amnesia.
+          </p>
           <div className="space-y-6 text-foreground/70 text-lg leading-relaxed">
             <p>
-              We live in an age of spiritual amnesia. Most Christians today have never heard of
-              Augustine, Athanasius, or the great cloud of witnesses who shaped our faith. We've
-              lost touch with our own history.
+              Most Christians today have never heard of Augustine, Athanasius, or the great cloud
+              of witnesses who shaped our faith. We've lost touch with our own history.
             </p>
             <p>
               The Dead Theologians Society exists to reconnect us with that history, not because the
@@ -244,9 +266,11 @@ export default function DTSPage() {
               navigate the challenges of faith.
             </p>
             <p>
-              When we read the Fathers, we discover that our questions aren't new. Doubt,
-              suffering, the nature of God: Christians have wrestled with these for two thousand years.
-              Their insights can illuminate our own struggles.
+              Your questions aren't new. Anxiety about suffering, doubting God's existence, the
+              struggle to live rightly in a complicated world. St. Augustine wrestled with this. So
+              did Sts. Athanasius, John Chrysostom, and the Desert Fathers. They didn't always have
+              easy answers, but in their writings you find honest ones, written for those of us who
+              want a <u>living faith</u>.
             </p>
           </div>
           <div className="mt-10">
@@ -272,6 +296,21 @@ export default function DTSPage() {
             Common Questions
           </h2>
           <FaqAccordion faqs={faqs} />
+        </div>
+      </section>
+
+      {/* What to Expect */}
+      <section className="py-24 lg:py-32 bg-secondary">
+        <div className="max-w-4xl mx-auto px-6 lg:px-12">
+          <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">Your First Night</p>
+          <h2 className="font-serif text-4xl lg:text-5xl text-foreground leading-tight mb-10">
+            What to Expect
+          </h2>
+          <p className="text-foreground/70 text-lg leading-relaxed">
+            We open in prayer before diving into the text. Fr. Thom gives a little context, then
+            we go through the text in depth for an hour. We ask questions, challenge answers, and
+            come together at the end as brothers and sisters in Christ.
+          </p>
         </div>
       </section>
 
