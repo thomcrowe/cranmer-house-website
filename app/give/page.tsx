@@ -45,18 +45,25 @@ export default function GivePage() {
           </Link>
           <p className="text-stone-light text-sm tracking-[0.2em] uppercase mb-4">Support the Ministry</p>
           <h1 className="font-serif text-5xl lg:text-6xl text-primary-foreground leading-tight mb-6 max-w-2xl">
-            Give to Cranmer House
+            Support Cranmer House
           </h1>
-          <p className="text-primary-foreground/70 text-lg max-w-xl leading-relaxed mb-10">
-            Every dollar goes directly toward serving students, books, food, pastoral care,
-            and the quiet work of formation that can't be measured.
-          </p>
+          <div className="text-primary-foreground/70 text-lg max-w-xl leading-relaxed mb-10 space-y-5">
+            <p>
+              Cranmer House is a ministry of Saint John's and is free and open to all students.
+              If you want to share in spreading the ancient faith of the Church with students in
+              Tulsa, we'd be grateful for your support.
+            </p>
+            <p>
+              Your gift helps us cover the costs of ministry, Prayer Books and Bibles, materials,
+              and making Cranmer House a place where anyone can come and encounter the living Christ.
+            </p>
+          </div>
           {/* Primary CTA right in the hero */}
           <a
             href="#"  // TODO: replace with St. John's online giving URL
             className="inline-flex items-center gap-2 bg-primary-foreground text-primary hover:bg-primary-foreground/90 px-8 py-4 text-base tracking-wide transition-colors group"
           >
-            Give Online via St. John's
+            Give Now
             <ArrowRight className="h-5 w-5 group-hover:translate-x-0.5 transition-transform" />
           </a>
         </div>
@@ -144,8 +151,9 @@ export default function GivePage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <blockquote className="border-l-2 border-stone pl-8">
             <p className="font-serif text-2xl lg:text-3xl text-primary-foreground/90 italic leading-relaxed mb-6">
-              &ldquo;The ministry of Cranmer House is a gift to these students.
-              Every person who supports it is part of that gift.&rdquo;
+              &ldquo;Cranmer House is something we want to build and grow for Christ. I believe
+              the ancient faith of the Church has so much to offer Tulsa's campuses, and I'd love
+              for you to be a part of making that happen. Thank you for your generosity.&rdquo;
             </p>
             <cite className="text-primary-foreground/50 text-sm not-italic tracking-wide">
               Fr. Thom Crowe, Founder, Cranmer House
