@@ -16,15 +16,15 @@ const faqSections = [
     questions: [
       {
         q: "What is Cranmer House?",
-        a: "Cranmer House is an Episcopal campus ministry serving students at Oral Roberts University and the University of Tulsa. We're named after Thomas Cranmer — the 16th-century Archbishop of Canterbury who compiled the Book of Common Prayer. We gather for theological reading, worship, and Christian fellowship.",
+        a: "Cranmer House is an Episcopal campus ministry serving students at Oral Roberts University and the University of Tulsa. We're named after Thomas Cranmer, the 16th-century Archbishop of Canterbury who compiled the Book of Common Prayer. We gather for theological reading, worship, and Christian fellowship.",
       },
       {
-        q: "Do I have to be Episcopalian — or even Christian — to come?",
+        q: "Do I have to be Episcopalian, or even Christian, to come?",
         a: "Not at all. Our Dead Theologians Society regularly welcomes students from Baptist, Catholic, non-denominational, Orthodox, and skeptical backgrounds. If you're curious about faith, history, or the big questions, you're welcome at our table.",
       },
       {
         q: "What is the Episcopal Church?",
-        a: "The Episcopal Church is the American branch of the worldwide Anglican Communion — a family of churches that traces its roots to the Church of England. We share the same faith as Anglican churches globally: Scripture, the historic creeds, sacramental worship, and the Book of Common Prayer.",
+        a: "The Episcopal Church is the American branch of the worldwide Anglican Communion, a family of churches that traces its roots to the Church of England. We share the same faith as Anglican churches globally: Scripture, the historic creeds, sacramental worship, and the Book of Common Prayer.",
       },
       {
         q: "Is this connected to a local church?",
@@ -37,11 +37,11 @@ const faqSections = [
     questions: [
       {
         q: "How do I get connected?",
-        a: "The easiest way is to show up to Dead Theologians Society on a Thursday at 7 PM. You can also sign up for our weekly email — it has the DTS reading, upcoming events, and notes from Fr. Thom. Or just email Fr. Thom directly at frthom@cranmerhouse.org.",
+        a: "The easiest way is to show up to Dead Theologians Society on a Thursday at 7 PM. You can also sign up for our email, it has the DTS reading, upcoming events, and notes from Fr. Thom. Or just email Fr. Thom directly at frthom@cranmerhouse.org.",
       },
       {
         q: "What happens at my first DTS gathering?",
-        a: "You show up and someone greets you. We start with a brief summary of where we are in the reading — so don't worry if you haven't read ahead. We discuss for about an hour. There's usually food. Nobody will quiz you or put you on the spot. The only requirement is showing up.",
+        a: "You show up and someone greets you. We start with a brief summary of where we are in the reading, so don't worry if you haven't read ahead. We discuss for about an hour. There's usually food. Nobody will quiz you or put you on the spot. The only requirement is showing up.",
       },
       {
         q: "Is there a cost to participate?",
@@ -49,7 +49,7 @@ const faqSections = [
       },
       {
         q: "What if I'm from a different denomination?",
-        a: "You're welcome. Many of our most committed members came from non-Anglican backgrounds and found the liturgical tradition to be a gift rather than a barrier. We're not trying to convert you away from your home church — but if you're exploring, we're glad to explore with you.",
+        a: "You're welcome. Many of our most committed members came from non-Anglican backgrounds and found the liturgical tradition to be a gift rather than a barrier. We're not trying to convert you away from your home church, but if you're exploring, we're glad to explore with you.",
       },
       {
         q: "Can graduate students or non-students participate?",
@@ -66,11 +66,11 @@ const faqSections = [
       },
       {
         q: "Do I need to do the reading beforehand?",
-        a: "It helps, but it's not required. We always summarize what we've read before the discussion begins. If you couldn't get to it, come anyway — some of our best conversations happen with a fresh set of eyes.",
+        a: "It helps, but it's not required. We always summarize what we've read before the discussion begins. If you couldn't get to it, come anyway, some of our best conversations happen with a fresh set of eyes.",
       },
       {
         q: "I've never read theology before. Is DTS for me?",
-        a: "Especially for you. We've found that students without a theology background often ask the most interesting questions. We read together, discuss together, and figure it out together. No prior expertise needed — ever.",
+        a: "Especially for you. We've found that students without a theology background often ask the most interesting questions. We read together, discuss together, and figure it out together. No prior expertise needed, ever.",
       },
       {
         q: "How do I get the books?",
@@ -87,19 +87,19 @@ const faqSections = [
       },
       {
         q: "What is Compline?",
-        a: "Compline (pronounced 'comp-lin') is the Night Prayer of the Church — a short, contemplative service of psalms, a brief reading, and prayers. It's been prayed by monks and ordinary Christians before sleep for over a thousand years. It takes about 20 minutes and is one of the most peaceful things we do.",
+        a: "Compline (pronounced 'comp-lin') is the Night Prayer of the Church, a short, contemplative service of psalms, a brief reading, and prayers. It's been prayed by monks and ordinary Christians before sleep for over a thousand years. It takes about 20 minutes and is one of the most peaceful things we do.",
       },
       {
         q: "What is the Daily Office?",
-        a: "The Daily Office is the ancient practice of praying at set hours throughout the day — Morning Prayer, Noonday Prayer, Evening Prayer, and Compline. The Book of Common Prayer provides these offices for daily use. Cranmer House helps students enter this rhythm of prayer.",
+        a: "The Daily Office is the ancient practice of praying at set hours throughout the day, Morning Prayer, Noonday Prayer, Evening Prayer, and Compline. The Book of Common Prayer provides these offices for daily use. Cranmer House helps students enter this rhythm of prayer.",
       },
       {
         q: "Can I receive communion at your services?",
-        a: "At Episcopal Eucharists, all baptized Christians are welcome to receive communion. If you haven't been baptized or aren't sure, you're warmly welcome to come forward for a blessing — just cross your arms over your chest and Fr. Thom will pray over you.",
+        a: "At Episcopal Eucharists, all baptized Christians are welcome to receive communion. If you haven't been baptized or aren't sure, you're warmly welcome to come forward for a blessing, just cross your arms over your chest and Fr. Thom will pray over you.",
       },
       {
         q: "What is spiritual direction?",
-        a: "Spiritual direction is a one-on-one conversation with Fr. Thom about your interior life — your relationship with God, your doubts, your questions, your sense of calling. It's not therapy or counseling. It's pastoral accompaniment for the journey of faith. Fr. Thom offers this to Cranmer House students at no charge.",
+        a: "Spiritual direction is a one-on-one conversation with Fr. Thom about your interior life, your relationship with God, your doubts, your questions, your sense of calling. It's not therapy or counseling. It's pastoral accompaniment for the journey of faith. Fr. Thom offers this to Cranmer House students at no charge.",
       },
     ],
   },

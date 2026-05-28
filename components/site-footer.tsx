@@ -24,7 +24,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-10 pt-8 border-t border-primary-foreground/10 text-center text-sm text-primary-foreground/40">
-          <p>&copy; {new Date().getFullYear()} Cranmer House. A ministry of St. John&apos;s Episcopal Church, Tulsa.</p>
+          <p>&copy; {new Date().getFullYear()} Cranmer House. A ministry of St. John's Episcopal Church, Tulsa.</p>
         </div>
       </div>
     </footer>

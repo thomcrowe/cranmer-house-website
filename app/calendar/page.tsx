@@ -31,7 +31,7 @@ export default function CalendarPage() {
           </h1>
           <p className="text-primary-foreground/70 text-lg max-w-2xl leading-relaxed">
             Find gatherings at Oral Roberts University and the University of Tulsa. Filter by
-            campus to see what&apos;s happening near you.
+            campus to see what's happening near you.
           </p>
         </div>
       </section>

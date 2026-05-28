@@ -10,7 +10,7 @@ import { generatedPastReadings } from "@/lib/past-readings-generated"
 export const metadata = {
   title: "Dead Theologians Society | Cranmer House",
   description:
-    "Weekly theological reading and discussion for students at ORU and TU. No expertise required — just curiosity, good conversation, and usually some food.",
+    "Weekly theological reading and discussion for students at ORU and TU. No expertise required, just curiosity, good conversation, and usually some food.",
 }
 
 const dtsReading = generatedDtsReading
@@ -122,12 +122,12 @@ export default function DTSPage() {
                   faith is to listen to those who have gone before us.
                 </p>
                 <p>
-                  Each semester we work through a classic text together — Augustine&apos;s
-                  Confessions, Athanasius&apos; On the Incarnation, Julian of Norwich&apos;s
+                  Each semester we work through a classic text together, Augustine's
+                  Confessions, Athanasius' On the Incarnation, Julian of Norwich's
                   Revelations, and more. We read a chapter each week, then gather to discuss.
                 </p>
                 <p>
-                  DTS is often the first place students encounter Cranmer House. It&apos;s low
+                  DTS is often the first place students encounter Cranmer House. It's low
                   commitment, intellectually stimulating, and deeply formative.
                 </p>
               </div>
@@ -142,7 +142,7 @@ export default function DTSPage() {
                 <p className="font-serif text-3xl text-foreground mt-4 mb-2">Thursdays at 7:00 PM</p>
                 <p className="text-foreground/60 leading-relaxed">
                   We rotate between Oral Roberts University and the University of Tulsa, with
-                  occasional gatherings at St. John&apos;s Episcopal Church.
+                  occasional gatherings at St. John's Episcopal Church.
                 </p>
               </div>
 
@@ -152,8 +152,8 @@ export default function DTSPage() {
                   Who Can Come
                 </h3>
                 <p className="text-foreground/60 leading-relaxed">
-                  Anyone. You don&apos;t need to be Episcopal or even Christian. If you&apos;re
-                  curious about theology, history, or the big questions of life, you&apos;re
+                  Anyone. You don't need to be Episcopal or even Christian. If you're
+                  curious about theology, history, or the big questions of life, you're
                   welcome at our table.
                 </p>
               </div>
@@ -162,7 +162,7 @@ export default function DTSPage() {
         </div>
       </section>
 
-      {/* Currently Reading — stone/warm accent band */}
+      {/* Currently Reading, stone/warm accent band */}
       <section className="py-24 lg:py-32 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="mb-14">
@@ -208,7 +208,7 @@ export default function DTSPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">Previous Semesters</p>
           <h2 className="font-serif text-4xl lg:text-5xl text-foreground leading-tight mb-14">
-            Voices We&apos;ve Explored
+            Voices We've Explored
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
@@ -235,16 +235,16 @@ export default function DTSPage() {
           <div className="space-y-6 text-foreground/70 text-lg leading-relaxed">
             <p>
               We live in an age of spiritual amnesia. Most Christians today have never heard of
-              Augustine, Athanasius, or the great cloud of witnesses who shaped our faith. We&apos;ve
+              Augustine, Athanasius, or the great cloud of witnesses who shaped our faith. We've
               lost touch with our own history.
             </p>
             <p>
-              The Dead Theologians Society exists to reconnect us with that history — not because the
-              past is perfect, but because we need more than just our own generation&apos;s wisdom to
+              The Dead Theologians Society exists to reconnect us with that history, not because the
+              past is perfect, but because we need more than just our own generation's wisdom to
               navigate the challenges of faith.
             </p>
             <p>
-              When we read the Fathers, we discover that our questions aren&apos;t new. Doubt,
+              When we read the Fathers, we discover that our questions aren't new. Doubt,
               suffering, the nature of God: Christians have wrestled with these for two thousand years.
               Their insights can illuminate our own struggles.
             </p>
@@ -280,11 +280,11 @@ export default function DTSPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
           <p className="text-stone-light text-sm tracking-[0.2em] uppercase mb-4">Ready to Join?</p>
           <h2 className="font-serif text-4xl lg:text-5xl leading-tight mb-6">
-            We&apos;d Love to See You
+            We'd Love to See You
           </h2>
           <p className="text-primary-foreground/70 text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-            DTS meets every Thursday at 7:00 PM. Check the calendar for this week&apos;s location
-            and reading. We&apos;d love to see you there.
+            DTS meets every Thursday at 7:00 PM. Check the calendar for this week's location
+            and reading. We'd love to see you there.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

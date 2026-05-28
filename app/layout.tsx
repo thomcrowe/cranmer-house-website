@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   generator: undefined,
 }
 
-// JSON-LD structured data — ReligiousOrganization schema
+// JSON-LD structured data, ReligiousOrganization schema
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': ['ReligiousOrganization', 'Organization'],

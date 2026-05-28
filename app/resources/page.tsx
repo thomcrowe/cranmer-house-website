@@ -14,12 +14,12 @@ const sections = [
     id: "pray",
     label: "Pray Every Day",
     heading: "Daily Office Tools",
-    description: "The Daily Office — Morning Prayer, Evening Prayer, and Compline — is the heartbeat of Anglican spiritual life. These resources make it easy to pray wherever you are.",
+    description: "The Daily Office, Morning Prayer, Evening Prayer, and Compline, is the heartbeat of Anglican spiritual life. These resources make it easy to pray wherever you are.",
     items: [
       {
         title: "Mission St. Clare",
         url: "https://www.missionstclare.com",
-        description: "The cleanest Daily Office website. Morning Prayer, Noonday, Evening Prayer, and Compline — all laid out and ready to pray.",
+        description: "The cleanest Daily Office website. Morning Prayer, Noonday, Evening Prayer, and Compline, all laid out and ready to pray.",
         tag: "Free · Web"
       },
       {
@@ -31,7 +31,7 @@ const sections = [
       {
         title: "Book of Common Prayer (1979)",
         url: "https://www.bcponline.org",
-        description: "The full text of the 1979 BCP online. Liturgies, psalms, lectionary, collects — everything.",
+        description: "The full text of the 1979 BCP online. Liturgies, psalms, lectionary, collects, everything.",
         tag: "Free · Web"
       },
       {
@@ -49,7 +49,7 @@ const sections = [
     description: "We're currently reading St. Athanasius of Alexandria, one of the great defenders of Christian orthodoxy. C.S. Lewis wrote the introduction to the modern translation and called it 'a masterpiece.'",
     items: [
       {
-        title: "On the Incarnation — Free Text (CCEL)",
+        title: "On the Incarnation, Free Text (CCEL)",
         url: "https://www.ccel.org/ccel/athanasius/incarnation.html",
         description: "Free online text of On the Incarnation from the Christian Classics Ethereal Library.",
         tag: "Free · Web"
@@ -71,7 +71,7 @@ const sections = [
       {
         title: "Christian Classics Ethereal Library (CCEL)",
         url: "https://www.ccel.org",
-        description: "The best free library of Christian classics on the internet. Augustine, Athanasius, Chrysostom, Aquinas, Calvin — all free.",
+        description: "The best free library of Christian classics on the internet. Augustine, Athanasius, Chrysostom, Aquinas, Calvin, all free.",
         tag: "Free · Web"
       },
       {
@@ -83,7 +83,7 @@ const sections = [
       {
         title: "Ante-Nicene Fathers (Complete Set)",
         url: "https://www.ccel.org/fathers.html",
-        description: "The complete Ante-Nicene Fathers and Nicene & Post-Nicene Fathers series — free. The full library of early Christian writing.",
+        description: "The complete Ante-Nicene Fathers and Nicene & Post-Nicene Fathers series, free. The full library of early Christian writing.",
         tag: "Free · Web"
       },
     ]
@@ -92,34 +92,34 @@ const sections = [
     id: "reading",
     label: "Recommended Reading",
     heading: "Books Worth Your Time",
-    description: "A short list Fr. Thom recommends to students entering the Anglican tradition — or simply entering a more serious engagement with faith.",
+    description: "A short list Fr. Thom recommends to students entering the Anglican tradition, or simply entering a more serious engagement with faith.",
     items: [
       {
-        title: "Mere Christianity — C.S. Lewis",
+        title: "Mere Christianity, C.S. Lewis",
         url: "https://www.amazon.com/Mere-Christianity-C-S-Lewis/dp/0060652926",
         description: "The classic case for Christian belief. Start here if you're exploring for the first time.",
         tag: "Essential"
       },
       {
-        title: "Confessions — St. Augustine",
+        title: "Confessions, St. Augustine",
         url: "https://www.ccel.org/ccel/augustine/confess.html",
         description: "The first autobiography in the Western tradition and one of the greatest spiritual memoirs ever written. Free at CCEL.",
         tag: "DTS Classic · Free"
       },
       {
-        title: "Surprised by Hope — N.T. Wright",
+        title: "Surprised by Hope, N.T. Wright",
         url: "https://www.amazon.com/Surprised-Hope-Rethinking-Heaven-Resurrection/dp/0061551821",
         description: "A fresh, exhilarating account of resurrection and Christian hope. Changes how you read the New Testament.",
         tag: "Anglican · Highly Recommended"
       },
       {
-        title: "Simply Christian — N.T. Wright",
+        title: "Simply Christian, N.T. Wright",
         url: "https://www.amazon.com/Simply-Christian-Christianity-Makes-Sense/dp/0061920622",
         description: "The best modern introduction to Christianity after Mere Christianity.",
         tag: "Introductory"
       },
       {
-        title: "Life Together — Dietrich Bonhoeffer",
+        title: "Life Together, Dietrich Bonhoeffer",
         url: "https://www.amazon.com/Life-Together-Exploration-Christian-Community/dp/0060608528",
         description: "A thin, profound book about what Christian community actually looks like. Perfect for DTS.",
         tag: "DTS Classic"
@@ -127,7 +127,7 @@ const sections = [
       {
         title: "The Book of Common Prayer (1979)",
         url: "https://www.amazon.com/Book-Common-Prayer-Pew-Edition/dp/0195287215",
-        description: "Every Cranmer House regular gets one — but if you want your own copy before then, this is the pew edition.",
+        description: "Every Cranmer House regular gets one, but if you want your own copy before then, this is the pew edition.",
         tag: "Anglican · Essential"
       },
     ]
@@ -145,7 +145,7 @@ const sections = [
         tag: "Web"
       },
       {
-        title: "What Is Anglicanism? — Anglican Communion",
+        title: "What Is Anglicanism?, Anglican Communion",
         url: "https://www.anglicancommunion.org/identity/what-is-anglicanism.aspx",
         description: "A brief, clear overview of the worldwide Anglican tradition that the Episcopal Church belongs to.",
         tag: "Web · Short Read"
@@ -177,7 +177,7 @@ export default function ResourcesPage() {
             Resources
           </h1>
           <p className="text-primary-foreground/70 text-lg max-w-2xl leading-relaxed">
-            Free tools for daily prayer, free texts of the Church Fathers, and Fr. Thom&apos;s recommended reading for students exploring the Anglican tradition.
+            Free tools for daily prayer, free texts of the Church Fathers, and Fr. Thom's recommended reading for students exploring the Anglican tradition.
           </p>
 
           {/* Jump links */}

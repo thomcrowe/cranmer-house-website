@@ -12,7 +12,7 @@ const uses = [
   {
     icon: Users,
     title: "Ministry & Pastoral Care",
-    description: "Fr. Thom gives his time to students freely — spiritual direction, pastoral conversations, and weekly gatherings. Your gift sustains that work.",
+    description: "Fr. Thom gives his time to students freely, spiritual direction, pastoral conversations, and weekly gatherings. Your gift sustains that work.",
   },
   {
     icon: BookOpen,
@@ -22,7 +22,7 @@ const uses = [
   {
     icon: Coffee,
     title: "Hospitality & Food",
-    description: "We feed people. Every gathering includes a meal or snacks — because good theological conversation happens best around a table.",
+    description: "We feed people. Every gathering includes a meal or snacks, because good theological conversation happens best around a table.",
   },
   {
     icon: Heart,
@@ -48,15 +48,15 @@ export default function GivePage() {
             Give to Cranmer House
           </h1>
           <p className="text-primary-foreground/70 text-lg max-w-xl leading-relaxed mb-10">
-            Every dollar goes directly toward serving students — books, food, pastoral care,
-            and the quiet work of formation that can&apos;t be measured.
+            Every dollar goes directly toward serving students, books, food, pastoral care,
+            and the quiet work of formation that can't be measured.
           </p>
           {/* Primary CTA right in the hero */}
           <a
             href="#"  // TODO: replace with St. John's online giving URL
             className="inline-flex items-center gap-2 bg-primary-foreground text-primary hover:bg-primary-foreground/90 px-8 py-4 text-base tracking-wide transition-colors group"
           >
-            Give Online via St. John&apos;s
+            Give Online via St. John's
             <ArrowRight className="h-5 w-5 group-hover:translate-x-0.5 transition-transform" />
           </a>
         </div>
@@ -81,7 +81,7 @@ export default function GivePage() {
         </div>
       </section>
 
-      {/* How to give — two options */}
+      {/* How to give, two options */}
       <section className="py-20 lg:py-28 bg-secondary">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">Ways to Give</p>
@@ -90,13 +90,13 @@ export default function GivePage() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-6">
-            {/* Online — Primary */}
+            {/* Online, Primary */}
             <div className="bg-primary text-primary-foreground p-8 lg:p-10 flex flex-col justify-between">
               <div>
                 <p className="text-stone-light text-xs tracking-[0.2em] uppercase mb-4">Recommended</p>
                 <h3 className="font-serif text-2xl text-primary-foreground mb-3">Give Online</h3>
                 <p className="text-primary-foreground/70 leading-relaxed mb-8">
-                  Give securely through St. John&apos;s Episcopal Church. In the notes,
+                  Give securely through St. John's Episcopal Church. In the notes,
                   designate your gift for <strong className="text-primary-foreground">&ldquo;Cranmer House.&rdquo;</strong>
                 </p>
               </div>
@@ -109,17 +109,17 @@ export default function GivePage() {
               </a>
             </div>
 
-            {/* Check — Secondary */}
+            {/* Check, Secondary */}
             <div className="bg-background border border-border p-8 lg:p-10 flex flex-col justify-between">
               <div>
                 <p className="text-stone text-xs tracking-[0.2em] uppercase mb-4">By Mail</p>
                 <h3 className="font-serif text-2xl text-foreground mb-3">Send a Check</h3>
                 <p className="text-foreground/60 leading-relaxed mb-6">
-                  Make checks payable to <strong>St. John&apos;s Episcopal Church</strong> with
+                  Make checks payable to <strong>St. John's Episcopal Church</strong> with
                   &ldquo;Cranmer House&rdquo; in the memo line.
                 </p>
                 <address className="not-italic text-sm text-foreground/50 font-mono leading-relaxed">
-                  St. John&apos;s Episcopal Church<br />
+                  St. John's Episcopal Church<br />
                   4200 S. Atlanta Pl.<br />
                   Tulsa, OK 74105
                 </address>
@@ -131,9 +131,9 @@ export default function GivePage() {
           <div className="mt-10 p-6 border border-border bg-background">
             <p className="text-stone text-xs tracking-[0.15em] uppercase mb-2">Tax Deductibility</p>
             <p className="text-foreground/60 leading-relaxed text-sm">
-              Cranmer House operates under the 501(c)(3) umbrella of St. John&apos;s Episcopal Church, Tulsa.
+              Cranmer House operates under the 501(c)(3) umbrella of St. John's Episcopal Church, Tulsa.
               All gifts designated &ldquo;Cranmer House&rdquo; are tax-deductible. You will receive a
-              year-end giving statement from St. John&apos;s.
+              year-end giving statement from St. John's.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function GivePage() {
               Every person who supports it is part of that gift.&rdquo;
             </p>
             <cite className="text-primary-foreground/50 text-sm not-italic tracking-wide">
-              Fr. Thom Crowe — Founder, Cranmer House
+              Fr. Thom Crowe, Founder, Cranmer House
             </cite>
           </blockquote>
         </div>

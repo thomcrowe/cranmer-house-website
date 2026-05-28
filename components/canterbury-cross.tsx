@@ -10,7 +10,7 @@ export function CanterburyCross({ className }: { className?: string }) {
       aria-hidden="true"
     >
       {/*
-        Cross Potent — arms that widen into T-bar terminals,
+        Cross Potent, arms that widen into T-bar terminals,
         characteristic of the Canterbury / Anglican tradition.
         24x24 grid: arm width 4, T-bar protrusion 2 on each side.
       */}

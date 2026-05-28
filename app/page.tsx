@@ -10,7 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import { getUpcomingEvents, categoryColors, categoryLabels, type Event } from "@/lib/events"
-// CanterburyCross no longer needed inline — logo.svg used instead
+// CanterburyCross no longer needed inline, logo.svg used instead
 import {
   ArrowRight,
   BookOpen,
@@ -195,7 +195,7 @@ function AboutSection() {
               <p>
                 We serve students at Oral Roberts University and the University of Tulsa, two very different
                 campuses and one shared community. Whether you grew up in church and want to go deeper, or
-                you&apos;re asking questions you&apos;re not sure anyone wants to hear, there&apos;s a place for you here.
+                you're asking questions you're not sure anyone wants to hear, there's a place for you here.
               </p>
             </div>
             <div className="flex items-center gap-8 mt-10 pt-10 border-t border-border">
@@ -241,7 +241,7 @@ function OurLifeSection() {
     {
       number: "02",
       title: "Eucharist",
-      description: "Gathering at the Lord&apos;s Table to receive the Body and Blood of Christ. The Eucharist is the center of our common life, and everything else flows from it."
+      description: "Gathering at the Lord's Table to receive the Body and Blood of Christ. The Eucharist is the center of our common life, and everything else flows from it."
     },
     {
       number: "03",
@@ -250,11 +250,6 @@ function OurLifeSection() {
     },
     {
       number: "04",
-      title: "Spiritual Direction",
-      description: "One-on-one time with Fr. Thom, for confession, for questions, for the parts of your faith journey you haven&apos;t said out loud yet."
-    },
-    {
-      number: "05",
       title: "Fellowship",
       description: "Meals, conversations, and the simple gift of Christian friendship across campus life."
     }
@@ -292,7 +287,7 @@ function OurLifeSection() {
               &ldquo;Lex orandi, lex credendi&rdquo;
             </p>
             <p className="text-primary-foreground/50 text-sm mt-1">
-              The law of prayer is the law of belief.
+              The rule of prayer is the rule of faith.
             </p>
           </div>
         </div>
@@ -320,10 +315,10 @@ function ChaplainSection() {
             <p className="text-foreground/70 text-base lg:text-lg leading-relaxed max-w-2xl">
               Fr. Thom is an Episcopal priest, an ORU graduate, and the founder of Cranmer House. He
               came to the Anglican tradition the long way, through years as an Orthodox deacon, and
-              he&apos;s still a little amazed that God put him back on the ORU campus as a priest. He
-              serves as Assisting Priest at St. John&apos;s Episcopal Church and spends a lot of time
+              he's still a little amazed that God put him back on the ORU campus as a priest. He
+              serves as Assisting Priest at St. John's Episcopal Church and spends a lot of time
               thinking about the Church Fathers, the beauty of the liturgy, and whether coffee counts
-              as a spiritual discipline. He&apos;s always up for a conversation, about theology, doubt,
+              as a spiritual discipline. He's always up for a conversation, about theology, doubt,
               or anything else.
             </p>
             <a
@@ -351,7 +346,7 @@ function EventsSection() {
     <section id="events" className="py-24 lg:py-32 bg-secondary">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="text-center mb-12 lg:mb-16">
-          <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">What&apos;s Happening</p>
+          <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">What's Happening</p>
           <h2 className="font-serif text-4xl lg:text-5xl text-foreground leading-tight">
             Upcoming Events
           </h2>
@@ -476,19 +471,19 @@ function FAQSection() {
   const faqs = [
     {
       q: "What is Cranmer House?",
-      a: "Cranmer House is an Episcopal campus ministry serving students at Oral Roberts University and the University of Tulsa. We're named after Thomas Cranmer — the Archbishop of Canterbury who compiled the Book of Common Prayer. We gather for theological reading, worship, and Christian fellowship.",
+      a: "Cranmer House is an Episcopal campus ministry serving students at Oral Roberts University and the University of Tulsa. We're named after Thomas Cranmer, the Archbishop of Canterbury who compiled the Book of Common Prayer. We gather for theological reading, worship, and Christian fellowship.",
     },
     {
-      q: "Do I have to be Episcopalian — or even Christian — to come?",
+      q: "Do I have to be Episcopalian, or even Christian, to come?",
       a: "Not at all. Dead Theologians Society regularly draws students from Baptist, Catholic, non-denominational, Orthodox, and even skeptical backgrounds. If you're curious about faith, history, or the big questions, you're welcome here.",
     },
     {
       q: "What is the Dead Theologians Society?",
-      a: "DTS is our weekly reading group where we work through a classic text of Christian history — Augustine's Confessions, Athanasius' On the Incarnation, Julian of Norwich, and more. We meet every Thursday at 7 PM. No prior reading required.",
+      a: "DTS is our weekly reading group where we work through a classic text of Christian history, Augustine's Confessions, Athanasius' On the Incarnation, Julian of Norwich, and more. We meet every Thursday at 7 PM. No prior reading required.",
     },
     {
       q: "How do I get connected?",
-      a: "The easiest way is to show up to DTS on a Thursday at 7 PM. You can also sign up for our weekly email or reach out to Fr. Thom directly at frthom@cranmerhouse.org.",
+      a: "The easiest way is to show up to DTS on a Thursday at 7 PM. You can also sign up for our email or reach out to Fr. Thom directly at frthom@cranmerhouse.org.",
     },
     {
       q: "What is the Book of Common Prayer?",
@@ -534,7 +529,7 @@ function FAQSection() {
 }
 
 // Email Capture Section
-// TODO: Wire the form action to Kit (kit.com) — free up to 10k subscribers,
+// TODO: Wire the form action to Kit (kit.com), free up to 10k subscribers,
 // much better than Mailchimp. Create a form in Kit and replace action="#" with
 // your Kit form URL, e.g. action="https://app.kit.com/forms/XXXXXX/subscriptions"
 function EmailCaptureSection() {
@@ -545,10 +540,10 @@ function EmailCaptureSection() {
           <div className="max-w-xl">
             <p className="text-stone-light text-sm tracking-[0.2em] uppercase mb-4">Stay Connected</p>
             <h2 className="font-serif text-3xl lg:text-4xl text-primary-foreground leading-tight">
-              Get the Weekly Email
+              Get the Email
             </h2>
             <p className="text-primary-foreground/65 mt-4 leading-relaxed">
-              The DTS reading for the week, what&apos;s coming up, and the occasional note from Fr. Thom.
+              The DTS reading for the week, what's coming up, and the occasional note from Fr. Thom.
               Short, useful, never annoying.
             </p>
           </div>
@@ -598,11 +593,11 @@ function ContactSection() {
           <div>
             <p className="text-stone text-sm tracking-[0.2em] uppercase mb-4">Get in Touch</p>
             <h2 className="font-serif text-4xl lg:text-5xl text-foreground leading-tight mb-8">
-              We&apos;d Love to Hear From You
+              We'd Love to Hear From You
             </h2>
             <p className="text-foreground/70 text-lg leading-relaxed mb-10">
               Whether you have questions about the Episcopal tradition, want to visit one of our gatherings,
-              or simply want to connect—reach out.
+              or simply want to connect, reach out.
             </p>
             
             <div className="space-y-6">
@@ -632,7 +627,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="text-lg">Affiliated Parish</p>
-                  <p className="text-muted-foreground">St. John&apos;s Episcopal Church, Tulsa</p>
+                  <p className="text-muted-foreground">St. John's Episcopal Church, Tulsa</p>
                 </div>
               </div>
             </div>
@@ -772,7 +767,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-primary-foreground transition-colors"
               >
-                St. John&apos;s Episcopal Church ↗
+                St. John's Episcopal Church ↗
               </a>
             </div>
           </div>
@@ -780,7 +775,7 @@ function Footer() {
 
         {/* Bottom row */}
         <div className="pt-8 text-center text-sm text-primary-foreground/35">
-          <p>&copy; {new Date().getFullYear()} Cranmer House. A ministry of St. John&apos;s Episcopal Church, Tulsa.</p>
+          <p>&copy; {new Date().getFullYear()} Cranmer House. A ministry of St. John's Episcopal Church, Tulsa.</p>
         </div>
       </div>
     </footer>
