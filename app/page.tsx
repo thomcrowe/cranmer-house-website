@@ -199,17 +199,17 @@ function AboutSection() {
               </p>
             </div>
             <div className="flex items-center gap-8 mt-10 pt-10 border-t border-border">
-              <div>
-                <p className="font-serif text-xl text-foreground leading-tight">Oral Roberts</p>
-                <p className="font-serif text-xl text-foreground leading-tight">University</p>
+              <Link href="/oru" className="group">
+                <p className="font-serif text-xl text-foreground leading-tight group-hover:text-stone transition-colors">Oral Roberts</p>
+                <p className="font-serif text-xl text-foreground leading-tight group-hover:text-stone transition-colors">University</p>
                 <p className="text-xs text-muted-foreground mt-1 tracking-wide uppercase">ORU · Tulsa</p>
-              </div>
+              </Link>
               <div className="h-12 w-px bg-border shrink-0" />
-              <div>
-                <p className="font-serif text-xl text-foreground leading-tight">University</p>
-                <p className="font-serif text-xl text-foreground leading-tight">of Tulsa</p>
+              <Link href="/tu" className="group">
+                <p className="font-serif text-xl text-foreground leading-tight group-hover:text-stone transition-colors">University</p>
+                <p className="font-serif text-xl text-foreground leading-tight group-hover:text-stone transition-colors">of Tulsa</p>
                 <p className="text-xs text-muted-foreground mt-1 tracking-wide uppercase">TU · Tulsa</p>
-              </div>
+              </Link>
             </div>
           </div>
           
